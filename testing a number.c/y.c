@@ -1,12 +1,12 @@
-/* To test a given number is positive,negative or zero*/
+/*To check the given number is positive,negative or zero /*
 #include<stdio.h>
 int main()
 {
-int a;
-scanf("%d",&a);
-if(a>0)
+int n;
+scanf("%d",&n);
+if(n>0)
 printf("positive");
-else if(a==0)
+else if(n==0)
 printf("zero");
 else
 printf("negative");
