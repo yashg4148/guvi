@@ -13,7 +13,7 @@ scanf("%d%d",&m,&n);
     break;
    }
    if(c==0)
-   printf("%d",i);
+   printf("%d ",i);
  }
 return 0;
 }
