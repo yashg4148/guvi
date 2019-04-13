@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-int a[10],i=0,n,k=0;
+int a[10],i=0,n,k=0,m,o=0;
 scanf("%d",&n);
 if(n<=100000)
 {
@@ -22,5 +22,5 @@ if(n<=100000)
    printf("no");
 }
 
-retrurn 0;
+return 0;
 }
