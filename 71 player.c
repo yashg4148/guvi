@@ -4,6 +4,8 @@ int main()
 {
 int i,n,*p;
 scanf("%d",&n);
+  if(n<=100000)
+  {
 p=(int*)malloc(n*sizeof(int));
 for(i=0;i<n;i++)
 scanf("%d",(p+i));
@@ -15,5 +17,6 @@ printf("%d ",p[i]);
 else
 printf("%d ",p[i+1]);
 }
+  }
 return 0;
 }
